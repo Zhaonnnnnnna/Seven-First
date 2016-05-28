@@ -1,0 +1,67 @@
+﻿生成启动时间为 2016/5/26 22:10:55。
+     1>项目“D:\code\HashTable\HashTable\HashTable.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>d:\code\hashtable\hashtable\hashtable.h(270): warning C4018: “<”: 有符号/无符号不匹配
+                 d:\code\hashtable\hashtable\hashtable.h(263): 编译类 模板 成员函数“second::HashTable<int,int,second::_HashFunc<K>>::HashTable(size_t)”时
+                 with
+                 [
+                     K=int
+                 ]
+                 d:\code\hashtable\hashtable\test.cpp(72): 参见对正在编译的函数 模板 实例化“second::HashTable<int,int,second::_HashFunc<K>>::HashTable(size_t)”的引用
+                 with
+                 [
+                     K=int
+                 ]
+                 d:\code\hashtable\hashtable\test.cpp(72): 参见对正在编译的类 模板 实例化“second::HashTable<int,int,second::_HashFunc<K>>”的引用
+                 with
+                 [
+                     K=int
+                 ]
+     1>d:\code\hashtable\hashtable\hashtable.h(399): warning C4018: “<”: 有符号/无符号不匹配
+                 d:\code\hashtable\hashtable\hashtable.h(396): 编译类 模板 成员函数“void second::HashTable<int,int,second::_HashFunc<K>>::Print(void)”时
+                 with
+                 [
+                     K=int
+                 ]
+                 d:\code\hashtable\hashtable\test.cpp(78): 参见对正在编译的函数 模板 实例化“void second::HashTable<int,int,second::_HashFunc<K>>::Print(void)”的引用
+                 with
+                 [
+                     K=int
+                 ]
+     1>d:\code\hashtable\hashtable\hashtable.h(187): warning C4018: “<”: 有符号/无符号不匹配
+                 d:\code\hashtable\hashtable\hashtable.h(181): 编译类 模板 成员函数“void frist::HashTable<int>::_CheckCapacity(void)”时
+                 d:\code\hashtable\hashtable\hashtable.h(61): 参见对正在编译的函数 模板 实例化“void frist::HashTable<int>::_CheckCapacity(void)”的引用
+                 d:\code\hashtable\hashtable\test.cpp(5): 参见对正在编译的类 模板 实例化“frist::HashTable<int>”的引用
+     1>d:\code\hashtable\hashtable\hashtable.h(430): warning C4018: “<”: 有符号/无符号不匹配
+                 d:\code\hashtable\hashtable\hashtable.h(424): 编译类 模板 成员函数“void second::HashTable<int,int,second::_HashFunc<K>>::_CheckCapacity(void)”时
+                 with
+                 [
+                     K=int
+                 ]
+                 d:\code\hashtable\hashtable\hashtable.h(317): 参见对正在编译的函数 模板 实例化“void second::HashTable<int,int,second::_HashFunc<K>>::_CheckCapacity(void)”的引用
+                 with
+                 [
+                     K=int
+                 ]
+     1>d:\code\hashtable\hashtable\hashtable.h(284): warning C4018: “<”: 有符号/无符号不匹配
+                 d:\code\hashtable\hashtable\hashtable.h(276): 编译类 模板 成员函数“second::HashTable<int,int,second::_HashFunc<K>>::HashTable(const second::HashTable<K,int,second::_HashFunc<K>> &)”时
+                 with
+                 [
+                     K=int
+                 ]
+                 d:\code\hashtable\hashtable\hashtable.h(438): 参见对正在编译的函数 模板 实例化“second::HashTable<int,int,second::_HashFunc<K>>::HashTable(const second::HashTable<K,int,second::_HashFunc<K>> &)”的引用
+                 with
+                 [
+                     K=int
+                 ]
+     1>d:\code\hashtable\hashtable\hashtable.h(290): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\HashTable\Debug\HashTable.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\HashTable\Debug\HashTable.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\HashTable\Debug\HashTable.lib" /MACHINE:X86 Debug\test.obj
+         HashTable.vcxproj -> D:\code\HashTable\Debug\HashTable.exe
+     1>已完成生成项目“D:\code\HashTable\HashTable\HashTable.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.85
