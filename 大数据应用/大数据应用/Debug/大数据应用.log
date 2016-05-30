@@ -1,0 +1,15 @@
+﻿生成启动时间为 2016/5/30 14:17:20。
+     1>项目“D:\code\大数据应用\大数据应用\大数据应用.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>d:\code\大数据应用\大数据应用\test.cpp(58): warning C4566: 由通用字符名称“\u202C”表示的字符不能在当前代码页(936)中表示出来
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\大数据应用\Debug\大数据应用.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\大数据应用\Debug\大数据应用.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\大数据应用\Debug\大数据应用.lib" /MACHINE:X86 Debug\BigData.obj
+         Debug\test.obj
+         大数据应用.vcxproj -> D:\code\大数据应用\Debug\大数据应用.exe
+     1>已完成生成项目“D:\code\大数据应用\大数据应用\大数据应用.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.86
