@@ -1,0 +1,48 @@
+﻿生成启动时间为 2016/5/12 18:24:00。
+     1>项目“D:\code\堆的应用\堆的应用\堆的应用.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Heap.h test.cpp
+         test.cpp
+     1>d:\code\堆的应用\堆的应用\heap.h(163): error C2679: 二进制“=”: 没有找到接受“const int”类型的右操作数的运算符(或没有可接受的转换)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\vector(948): 可能是“std::vector<T,std::allocator<_Ty>> &std::vector<_Ty,std::allocator<_Ty>>::operator =(const std::vector<_Ty,std::allocator<_Ty>> &)”
+                 with
+                 [
+                     T=int
+         ,            _Ty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\vector(926): 或       “std::vector<T,std::allocator<_Ty>> &std::vector<_Ty,std::allocator<_Ty>>::operator =(std::initializer_list<int>)”
+                 with
+                 [
+                     T=int
+         ,            _Ty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\vector(822): 或       “std::vector<T,std::allocator<_Ty>> &std::vector<_Ty,std::allocator<_Ty>>::operator =(std::vector<_Ty,std::allocator<_Ty>> &&)”
+                 with
+                 [
+                     T=int
+         ,            _Ty=int
+                 ]
+                 尝试匹配参数列表“(std::vector<T,std::allocator<_Ty>>, const int)”时
+                 with
+                 [
+                     T=int
+         ,            _Ty=int
+                 ]
+                 d:\code\堆的应用\堆的应用\heap.h(158): 编译类 模板 成员函数“Heap<int,Less<int>>::Heap(const T *,int)”时
+                 with
+                 [
+                     T=int
+                 ]
+                 d:\code\堆的应用\堆的应用\test.cpp(6): 参见对正在编译的函数 模板 实例化“Heap<int,Less<int>>::Heap(const T *,int)”的引用
+                 with
+                 [
+                     T=int
+                 ]
+                 d:\code\堆的应用\堆的应用\test.cpp(6): 参见对正在编译的类 模板 实例化“Heap<int,Less<int>>”的引用
+         Heap.h
+         正在生成代码...
+     1>已完成生成项目“D:\code\堆的应用\堆的应用\堆的应用.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.59
