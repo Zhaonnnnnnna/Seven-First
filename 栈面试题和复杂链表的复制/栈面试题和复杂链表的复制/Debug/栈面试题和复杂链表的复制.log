@@ -1,0 +1,12 @@
+﻿生成启动时间为 2016/4/13 11:57:12。
+     1>项目“D:\code\栈面试题和复杂链表的复制\栈面试题和复杂链表的复制\栈面试题和复杂链表的复制.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>d:\code\栈面试题和复杂链表的复制\栈面试题和复杂链表的复制\test.cpp(29): error C2784: “ComplexSlist<T> *CloneSlist(ComplexNode<T> *)”: 未能从“ComplexSlist<int>”为“ComplexNode<T> *”推导 模板 参数
+                 d:\code\栈面试题和复杂链表的复制\栈面试题和复杂链表的复制\stack.h(271) : 参见“CloneSlist”的声明
+     1>已完成生成项目“D:\code\栈面试题和复杂链表的复制\栈面试题和复杂链表的复制\栈面试题和复杂链表的复制.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.56
